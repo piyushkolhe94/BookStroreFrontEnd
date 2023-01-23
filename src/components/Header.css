@@ -1,0 +1,29 @@
+nav{
+    background-color: rgb(216, 64, 64); 
+    position:fixed;
+    /* position: sticky; */
+    top: 0;
+    z-index: 20;
+
+}
+.link{
+  text-decoration: none; 
+  color: rgb(0, 0, 0);
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: rgb(230, 232, 232);
+    width: 125%;
+    margin-left: -4rem;
+    margin-top: 2rem;
+}
+.last{
+    margin-top: 11rem;
+    padding-bottom: 4rem;
+}
+Link{
+    text-decoration: none;
+}
