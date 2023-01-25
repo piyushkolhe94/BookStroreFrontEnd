@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import { Button, Card, CardActions, CardContent, CardMedia} from '@mui/material';
 import { Col,Row } from 'reactstrap';
 import Pagination from '../components/Pagination';
+import Img1 from '../Image/Img1.jpg';
 
 const HomePage = () => {
   
@@ -106,7 +107,7 @@ const HomePage = () => {
                     <CardMedia
                       component="img"
                       height="140"
-                      image={book.profilePic}
+                      image={Img1}
                       alt="Image Not Available"
                       sx={{ objectFit: "contain" }}
                     ></CardMedia>

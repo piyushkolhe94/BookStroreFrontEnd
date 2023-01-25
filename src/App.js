@@ -8,6 +8,7 @@ import Admin from './pages/Admin';
 import CartBook from './components/CartBook';
 import Order from './pages/Order';
 import PlaceOrder from './components/PlaceOrder';
+import OrderSuccessfully from './pages/OrderSuccessfully';
 
 
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Cartbook" element ={<CartBook/>}/>
             <Route exact path="/Order" element={<Order/>}/>
             <Route exact path="/PlaceOrder" element={<PlaceOrder/>}/>
+            <Route exact path="/OrderSuccess" element={<OrderSuccessfully/>}/>
             
             
             

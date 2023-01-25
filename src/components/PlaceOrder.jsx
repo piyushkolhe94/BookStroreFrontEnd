@@ -46,6 +46,7 @@ const PlaceOrder = () => {
         e.preventDefault();
         placeOrder(data);
         console.log("Order Placed");
+        navigate("/OrderSuccess");
 
       }
   
